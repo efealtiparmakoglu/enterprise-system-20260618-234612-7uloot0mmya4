@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: enterprise-system-20260618-234612-7uloot0mmya4-service
+spec:
+  selector:
+    app: enterprise-system-20260618-234612-7uloot0mmya4
+  ports:
+  - port: 80
+    targetPort: 8000
+  type: ClusterIP
